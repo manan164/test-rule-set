@@ -1,3 +1,3 @@
 OriginCity,OriginState,DestinationCity,DestinationState,Weight,Response
-Darlington,SC,*,"inList({""SC"",""NC""})",*,Respond
-Norfolk,NE,*,"inList({""IL"",""IN"",""KS"",""TX"",""OH"",""WI"",""OK"",""MI"",""PA"",""TN"",""SC""})",*,Respond
+Darlington,SC,"!=*","inList({""SC"",""NC""})","!=*",Respond
+Norfolk,NE,"!=*","inList({""IL"",""IN"",""KS"",""TX"",""OH"",""WI"",""OK"",""MI"",""PA"",""TN"",""SC""})","!=*",Respond
